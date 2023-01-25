@@ -1,11 +1,11 @@
 .about{
-    color: rgb(41, 41, 208);
+    color: rgb(245, 239, 239);
     display: flex;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .description{
-    color: rgb(41, 41, 208);
+    color: rgb(245, 239, 239);
     display: flex;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

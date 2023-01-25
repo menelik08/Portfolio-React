@@ -6,7 +6,7 @@ import './Header.css';
 function Header({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      <li className="nav-tabs">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -16,7 +16,7 @@ function Header({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-tabs">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -25,7 +25,7 @@ function Header({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-tabs">
         <a
           href="#projects"
           onClick={() => handlePageChange('Projects')}
@@ -34,7 +34,7 @@ function Header({ currentPage, handlePageChange }) {
           Projects
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-tabs">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}

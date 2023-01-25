@@ -35,7 +35,7 @@ function Projects() {
       class="projects-container"
       style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
      {projectsArray.map(project =>(
-        <div class="card" style= {{width: "18rem", border:'solid', margin: '2%'}}>
+        <div class="card" style= {{width: "18rem", border:'solid', margin: '2%', color: 'whitesmoke'}}>
         <img src={project.img} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{project.title}</h5>
