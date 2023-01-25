@@ -1,0 +1,22 @@
+* {
+    background-color: rgb(206, 204, 204)
+}
+
+.nav-tabs{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    justify-content: center;
+}
+
+.desc-paragraph{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(247, 247, 247);
+    margin: 3%;
+    font-size: x-large;
+}
+
+
+
